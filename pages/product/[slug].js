@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 
 import { Product } from "../../components";
+import Meta from "../../components/Meta";
 import { useStateContext } from "../../context/stateContext";
 import { client, urlFor } from "../../lib/client";
 
@@ -23,6 +24,7 @@ const ProductDetails = ({ product, products }) => {
 
   return (
     <div>
+      <Meta title={name} />
       <div className="product-detail-container">
         <div>
           <div className="image-container">

@@ -8,8 +8,8 @@ import {
   AiOutlineShopping,
 } from "react-icons/ai";
 import { TiDeleteOutline } from "react-icons/ti";
+import Meta from "../components/Meta";
 import { useStateContext } from "../context/stateContext";
-
 import { urlFor } from "../lib/client";
 import getStripe from "../lib/getStripe";
 
@@ -47,6 +47,7 @@ const Cart = () => {
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
+      <Meta title="cart" description="See your cart" />
       <div className="cart-container">
         <button
           type="button"

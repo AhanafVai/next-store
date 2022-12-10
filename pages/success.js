@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { BsBagCheckFill } from "react-icons/bs";
+import Meta from "../components/Meta";
 import { runFireworks } from "../lib/utils";
 
 const Success = () => {
@@ -11,6 +12,8 @@ const Success = () => {
   }, []);
   return (
     <div className="success-wrapper">
+      \
+      <Meta title="Success" />
       <div className="success">
         <p className="icon">
           <BsBagCheckFill />
