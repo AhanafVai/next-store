@@ -35,4 +35,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Continue Development
 
-- context api
+- Add a case study for the projects.
